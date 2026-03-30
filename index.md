@@ -1,37 +1,40 @@
 <style>
   /* Custom UI Tweaks */
   details {
-    background: #151515;
-    border: 1px solid #333;
+    background: #111;
+    border: 1px solid #222;
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
     cursor: pointer;
+    transition: border-color 0.2s;
   }
+	details:hover { border-color: #333; }
   summary {
     font-size: 1.2em;
     font-weight: bold;
-    color: #b5e853; /* Hacker Theme Green */
+    color: #eee;
     outline: none;
+    display: list-item;
   }
+  details[open] summary { color: #b5e853; /* Green when open */ }
   .project-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-bottom: 30px;
+    margin-top: 15px;
   }
   .project-card {
     flex: 1 1 calc(50% - 20px);
-    background: #111;
-    border: 1px solid #222;
+    background: #151515;
+    border: 1px solid #333;
     padding: 20px;
     border-radius: 8px;
-    transition: transform 0.2s;
+    transition: transform 0.2s, border-color 0.2s;
   }
-  .project-card:hover {
-    transform: translateY(-5px);
-    border-color: #b5e853;
-  }
+  .project-card:hover { transform: translateY(-3px); border-color: #b5e853; }
+  
+  /* Specialty tags within cards */
   .tech-tag {
     display: inline-block;
     background: #222;
@@ -43,6 +46,35 @@
     margin-top: 10px;
     border: 1px solid #444;
   }
+
+  /* --- FIGURE & IMAGE HOVER EFFECTS (Crucial Update) --- */
+  .figure-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1; /* Ensures they layer correctly when magnified */
+  }
+  
+  /* Magnification effect on Figs 1-3 */
+  .magnify-figure {
+    text-align: center;
+    transition: transform 0.3s ease-in-out, z-index 0s;
+  }
+  .magnify-figure:hover {
+    transform: scale(2.0); /* Enlarge by 100% */
+    z-index: 99; /* Pop above other figures */
+  }
+  .magnify-figure img { border-radius: 4px; border: 1px solid #222; }
+
+  /* Magnification effect on the main Fig 4 */
+  .magnify-large {
+    transition: transform 0.3s ease-in-out;
+    cursor: zoom-in;
+  }
+  .magnify-large:hover { transform: scale(1.3); }
+
 </style>
 
 # Ryan Barrage, PhD
@@ -90,23 +122,23 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   
   <strong> Numerical Analysis: Torsional Size Effects</strong>
   
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
-    <figure style="text-align:center;">
+  <div class="figure-container">
+    <figure class="magnify-figure">
       <img src="/assets/images/fig1.png" width="275">
       <figcaption><small>Fig 1: Classical</small></figcaption>
     </figure>
-    <figure style="text-align:center;">
+    <figure class="magnify-figure">
       <img src="/assets/images/fig2.png" width="275">
       <figcaption><small>Fig 2: l=0.1mm</small></figcaption>
     </figure>
-    <figure style="text-align:center;">
+    <figure class="magnify-figure">
       <img src="/assets/images/fig3.png" width="275">
       <figcaption><small>Fig 3: l=1.0mm</small></figcaption>
     </figure>
   </div>
   
   <p align="center">
-    <img src="/assets/images/fig4.png" width="600"><br>
+    <img src="/assets/images/fig4.png" width="600" class="magnify-large"><br>
     <em>Fig 4: Numerical confirmation of the "Size Effect" phenomenon.</em>
   </p>
 </details>
@@ -120,50 +152,52 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   </ul>
 </details>
 
-### Selected Publications & Theses
-
-<div class="project-grid">
-  <div class="project-card">
-    <h4>Methods in Modelling of Composite Materials with Microstructure</h4>
-    <p><small>Doctoral Thesis | University of Waterloo</small></p>
-    <span class="tech-tag">Cosserat Elasticity</span>
-    <span class="tech-tag">Fortran UEL</span>
-    <br><br>
-    <a href="https://uwspace.uwaterloo.ca/items/01c7c395-2718-400e-94e0-c069cdeb2498">View Thesis →</a>
+<details>
+  <summary>📚 Selected Publications & Theses</summary>
+	<div class="project-grid">
+	  <div class="project-card publication-card">
+	    <h4>Methods in Modelling of Composite Materials with Microstructure</h4>
+	    <p><small>Doctoral Thesis | University of Waterloo</small></p>
+	    <span class="tech-tag">Cosserat Elasticity</span>
+	    <span class="tech-tag">Fortran UEL</span>
+	    <br><br>
+	    <a href="https://uwspace.uwaterloo.ca/items/01c7c395-2718-400e-94e0-c069cdeb2498">View Thesis →</a>
+	  </div>
+	
+	  <div class="project-card publication-card">
+	    <h4>Finite Element Modelling of FRP Reinforced Concrete Beams and Comparative Analysis of Current Strength Prediction Methods</h4>
+	    <p><small>Master's Thesis | University of Waterloo</small></p>
+	    <span class="tech-tag">Nonlinear FEA</span>
+	    <span class="tech-tag">Python Automation</span>
+	    <br><br>
+	    <a href="https://uwspace.uwaterloo.ca/items/8454788e-533b-4c1c-9b26-ea31f7ba23b1">View Thesis →</a>
+	  </div>
+	
+	  <div class="project-card publication-card">
+	    <h4>Finite Element Modelling of Exponentially Graded Composites with Microstructure</h4>
+	    <p><small>Mathematics and Mechanics of Solids</small></p>
+	    <span class="tech-tag">Constitutive Modelling</span>
+	    <br><br>
+	    <a href="https://journals.sagepub.com/doi/full/10.1177/10812865221147858">Read Journal Article →</a>
+	  </div>
+	
+	  <div class="project-card publication-card">
+	    <h4>Influence of Microstructural Characteristic Torsion Length on Exponentially Graded Cylinders in Torsion</h4>
+	    <p><small>Acta Mechanica (Springer)</small></p>
+	    <span class="tech-tag">Torsional Size Effect</span>
+	    <br><br>
+	    <a href="https://link.springer.com/article/10.1007/s00707-022-03436-8">Read Journal Article →</a>
+	  </div>
+	  
+	  <div class="project-card publication-card">
+	    <h4>Flexural and Shear Behaviours of GFRP-Reinforced Concrete Beams Based on Nonlinear Finite Element Studies</h4>
+	    <p><small>Canadian Journal of Civil Engineering</small></p>
+	    <span class="tech-tag">Parametric Studies</span>
+	    <br><br>
+	    <a href="https://cdnsciencepub.com/doi/abs/10.1139/cjce-2022-0179">Read Journal Article →</a>
+	  </div>
   </div>
-
-  <div class="project-card">
-    <h4>Finite Element Modelling of FRP Reinforced Concrete Beams and Comparative Analysis of Current Strength Prediction Methods</h4>
-    <p><small>Master's Thesis | University of Waterloo</small></p>
-    <span class="tech-tag">Nonlinear FEA</span>
-    <span class="tech-tag">Python Automation</span>
-    <br><br>
-    <a href="https://uwspace.uwaterloo.ca/items/8454788e-533b-4c1c-9b26-ea31f7ba23b1">View Thesis →</a>
-  </div>
-
-  <div class="project-card">
-    <h4>Finite Element Modelling of Exponentially Graded Composites with Microstructure</h4>
-    <p><small>Mathematics and Mechanics of Solids</small></p>
-    <span class="tech-tag">Constitutive Modelling</span>
-    <br><br>
-    <a href="https://journals.sagepub.com/doi/full/10.1177/10812865221147858">Read Journal Article →</a>
-  </div>
-
-  <div class="project-card">
-    <h4>Influence of Microstructural Characteristic Torsion Length on Exponentially Graded Cylinders in Torsion</h4>
-    <p><small>Acta Mechanica (Springer)</small></p>
-    <span class="tech-tag">Torsional Size Effect</span>
-    <br><br>
-    <a href="https://link.springer.com/article/10.1007/s00707-022-03436-8">Read Journal Article →</a>
-  </div>
-  
-  <div class="project-card">
-    <h4>Flexural and Shear Behaviours of GFRP-Reinforced Concrete Beams Based on Nonlinear Finite Element Studies</h4>
-    <p><small>Canadian Journal of Civil Engineering</small></p>
-    <span class="tech-tag">Parametric Studies</span>
-    <br><br>
-    <a href="https://cdnsciencepub.com/doi/abs/10.1139/cjce-2022-0179">Read Journal Article →</a>
-  </div>
+  </details>
 </div>
 
 
