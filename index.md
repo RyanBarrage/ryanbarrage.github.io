@@ -153,7 +153,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 </details>
 
 <details>
-  <summary>📚 Selected Publications & Theses</summary>
+  <summary>Selected Publications & Theses</summary>
 	<div class="project-grid">
 	  <div class="project-card publication-card">
 	    <h4>Methods in Modelling of Composite Materials with Microstructure</h4>
