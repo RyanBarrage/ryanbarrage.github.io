@@ -69,8 +69,9 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
     <h3>Express Checkout | Infrastructure</h3>
     <p>4-player online co-op featuring dynamic server orchestration.</p>
     <span class="tech-tag">Network Architecture</span>
+	<span class="tech-tag">Game Server Spawner</span>
     <span class="tech-tag">Instance Scaling</span>
-    <span class="tech-tag">Procedural Gen</span>
+    <span class="tech-tag">Procedural Generation</span>
   </div>
 </div>
 
@@ -87,31 +88,31 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 	<li><strong>Data Engineering:</strong> Engineered a Python utility to bridge raw solver output with <strong>Paraview (VTK)</strong> for advanced volumetric field analysis.</li>
   </ul>
   
-  #### **Numerical Analysis: Torsional Size Effects**
+  <strong> Numerical Analysis: Torsional Size Effects</strong>
   
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
     <figure style="text-align:center;">
-      <img src="/assets/images/fig1.png" width="200">
+      <img src="/assets/images/fig1.png" width="400">
       <figcaption><small>Fig 1: Classical</small></figcaption>
     </figure>
     <figure style="text-align:center;">
-      <img src="/assets/images/fig2.png" width="200">
+      <img src="/assets/images/fig2.png" width="400">
       <figcaption><small>Fig 2: l=0.1mm</small></figcaption>
     </figure>
     <figure style="text-align:center;">
-      <img src="/assets/images/fig3.png" width="200">
+      <img src="/assets/images/fig3.png" width="400">
       <figcaption><small>Fig 3: l=1.0mm</small></figcaption>
     </figure>
   </div>
   
   <p align="center">
-    <img src="/assets/images/fig4.png" width="400"><br>
+    <img src="/assets/images/fig4.png" width="600"><br>
     <em>Fig 4: Numerical confirmation of the "Size Effect" phenomenon.</em>
   </p>
 </details>
 
 <details>
-  <summary> Master's Research: Large-Scale Automation</summary>
+  <summary> Master's Research: GFRP Reinforced Concrete Beams</summary>
   <p>Conducted non-linear FEA to evaluate the performance of glass-fiber-reinforced polymer (GFRP) beams.</p>
   <ul>
     <li><strong>Large-Scale Automation:</strong> Orchestrated <strong>300+ unique Abaqus simulations</strong> investigating a wide range of slenderness ratios.</li>
@@ -132,7 +133,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   </div>
 
   <div class="project-card">
-    <h4>FEA of GFRP Reinforced Concrete Beams</h4>
+    <h4>Finite Element Modelling of FRP Reinforced Concrete Beams and Comparative Analysis of Current Strength Prediction Methods</h4>
     <p><small>Master's Thesis | University of Waterloo</small></p>
     <span class="tech-tag">Nonlinear FEA</span>
     <span class="tech-tag">Python Automation</span>
@@ -141,7 +142,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   </div>
 
   <div class="project-card">
-    <h4>Modelling of Exponentially Graded Composites</h4>
+    <h4>Finite Element Modelling of Exponentially Graded Composites with Microstructure</h4>
     <p><small>Mathematics and Mechanics of Solids</small></p>
     <span class="tech-tag">Constitutive Modelling</span>
     <br><br>
@@ -149,15 +150,15 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   </div>
 
   <div class="project-card">
-    <h4>Influence of Microstructural Torsion Length</h4>
-    <p><small>Meccanica (Springer)</small></p>
+    <h4>Influence of Microstructural Characteristic Torsion Length on Exponentially Graded Cylinders in Torsion</h4>
+    <p><small>Acta Mechanica (Springer)</small></p>
     <span class="tech-tag">Torsional Size Effect</span>
     <br><br>
     <a href="https://link.springer.com/article/10.1007/s00707-022-03436-8">Read Journal Article →</a>
   </div>
   
   <div class="project-card">
-    <h4>Flexural and Shear Behaviours of GFRP Beams</h4>
+    <h4>Flexural and Shear Behaviours of GFRP-Reinforced Concrete Beams Based on Nonlinear Finite Element Studies</h4>
     <p><small>Canadian Journal of Civil Engineering</small></p>
     <span class="tech-tag">Parametric Studies</span>
     <br><br>
