@@ -50,7 +50,7 @@ The following figures demonstrate the transition from classical elasticity to si
 * [**Master's Thesis:** FEA of GFRP Reinforced Concrete Beams (University of Waterloo)](https://uwspace.uwaterloo.ca/handle/10012/10850).
 * [Finite Element Modelling of Exponentially Graded Composites with Microstructure](https://journals.sagepub.com/doi/full/10.1177/10812865221147858).
 * [Influence of Microstructural Characteristic Torsion Length on Exponentially Graded Cylinders in Torsion](https://link.springer.com/article/10.1007/s00707-022-03436-8).
-* [FEA of GFRP Reinforced Concrete Beams (University of Waterloo)](https://cdnsciencepub.com/doi/abs/10.1139/cjce-2022-0179).
+* [Flexural and Shear Behaviours of GFRP-Reinforced Concrete Beams Based on Nonlinear Finite Element Studies](https://cdnsciencepub.com/doi/abs/10.1139/cjce-2022-0179).
 
 ---
 
