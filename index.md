@@ -32,7 +32,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 #### **Numerical Analysis: Torsional Size Effects**
 The following figures demonstrate the transition from classical elasticity to size-dependent behavior as the internal length scale ($l$) begins to dominate the structural response.
 
-| Fig 1: Classical ($l = 0$mm) | Fig 2: Cosserat ($l = 0.1$mm) | Fig 3: Cosserat ($l = 1.0$mm) |
+| Fig 1: Classical (*l* = 0 mm) | Fig 2: Cosserat (*l* = 0.1 mm) | Fig 3: Cosserat (*l* = 1.0 mm) |
 | :---: | :---: | :---: |
 | ![Classical Stress](/assets/images/fig1.png) | ![Cosserat 0.1](/assets/images/fig2.png) | ![Cosserat 1.0](/assets/images/fig3.png) |
 
