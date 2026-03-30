@@ -198,7 +198,6 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 	  </div>
   </div>
   </details>
-</div>
 
 
 
