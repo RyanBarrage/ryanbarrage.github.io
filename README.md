@@ -15,7 +15,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 
 ### **Express Checkout | Co-op Infrastructure**
 *4-player online co-op featuring dynamic server orchestration.*
-* **Technical Highlight:** Built a dedicated "Game Server Spawner" that spins up instances for individual matches.
+* **Technical Highlight:** Built a dedicated Game Server Spawner that spins up instances for individual matches.
 * **Systems:** Procedural supermarket generation and session-based matchmaking.
 
 ### **SideEffects | Systems-Driven Tactics**
