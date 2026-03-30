@@ -92,15 +92,15 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
   
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
     <figure style="text-align:center;">
-      <img src="/assets/images/fig1.png" width="300">
+      <img src="/assets/images/fig1.png" width="275">
       <figcaption><small>Fig 1: Classical</small></figcaption>
     </figure>
     <figure style="text-align:center;">
-      <img src="/assets/images/fig2.png" width="300">
+      <img src="/assets/images/fig2.png" width="275">
       <figcaption><small>Fig 2: l=0.1mm</small></figcaption>
     </figure>
     <figure style="text-align:center;">
-      <img src="/assets/images/fig3.png" width="300">
+      <img src="/assets/images/fig3.png" width="275">
       <figcaption><small>Fig 3: l=1.0mm</small></figcaption>
     </figure>
   </div>
