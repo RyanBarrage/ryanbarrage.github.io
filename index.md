@@ -46,8 +46,8 @@ The following figures demonstrate the transition from classical elasticity to si
 * **Pipeline:** Developed a Python-driven parametric pipeline for job submission, and result extraction (Python-XLSX).
 
 #### **Selected Publications & Thesis**
-* [**PhD Thesis:** Finite Element Modelling of Functionally Graded Composites... (University of Waterloo)](https://uwspace.uwaterloo.ca/).
-* [**Master's Thesis:** FEA of GFRP Reinforced Concrete Beams (University of Waterloo)](https://uwspace.uwaterloo.ca/handle/10012/10850).
+* [**PhD Thesis:** Methods in Modelling of Composite Materials with Microstructure (University of Waterloo)]([https://uwspace.uwaterloo.ca/](https://uwspace.uwaterloo.ca/items/01c7c395-2718-400e-94e0-c069cdeb2498)).
+* [**Master's Thesis:** Finite Element Modelling of FRP Reinforced Concrete Beams and Comparative Analysis of Current Strength Prediction Methods (University of Waterloo)](https://uwspace.uwaterloo.ca/items/8454788e-533b-4c1c-9b26-ea31f7ba23b1).
 * [Finite Element Modelling of Exponentially Graded Composites with Microstructure](https://journals.sagepub.com/doi/full/10.1177/10812865221147858).
 * [Influence of Microstructural Characteristic Torsion Length on Exponentially Graded Cylinders in Torsion](https://link.springer.com/article/10.1007/s00707-022-03436-8).
 * [Flexural and Shear Behaviours of GFRP-Reinforced Concrete Beams Based on Nonlinear Finite Element Studies](https://cdnsciencepub.com/doi/abs/10.1139/cjce-2022-0179).
