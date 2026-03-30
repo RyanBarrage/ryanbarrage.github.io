@@ -34,9 +34,9 @@ The following figures demonstrate the transition from classical elasticity to si
 
 | Fig 1: Classical ($l = 0$mm) | Fig 2: Cosserat ($l = 0.1$mm) | Fig 3: Cosserat ($l = 1.0$mm) |
 | :---: | :---: | :---: |
-| ![Classical Stress](assets/images/fig1.png) | ![Cosserat 0.1](assets/images/fig2.png) | ![Cosserat 1.0](assets/images/fig3.png) |
+| ![Classical Stress](/assets/images/fig1.png) | ![Cosserat 0.1](/assets/images/fig2.png) | ![Cosserat 1.0](/assets/images/fig3.png) |
 
-![Size Effect Graph](assets/images/fig4.png)
+![Size Effect Graph](/assets/images/fig4.png)
 ***Fig 4:** Influence of structural diameter on normalized torsional rigidity, numerically confirming the "Size Effect" phenomenon.*
 
 ### **Automation: GFRP Reinforced Concrete Systems**
