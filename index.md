@@ -46,6 +46,23 @@
     margin-top: 10px;
     border: 1px solid #444;
   }
+	.mechanic-icon {
+    width: 60px;
+    height: 60px;
+    background: #222;
+    border: 1px solid #b5e853;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .feature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+  }
 
   /* --- FIGURE & IMAGE HOVER EFFECTS (Crucial Update) --- */
   .figure-container {
@@ -87,23 +104,57 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 ## Featured Game Projects
 
 <div class="project-grid">
-  <div class="project-card">
+  <div class="project-card" style="flex: 1 1 100%;">
     <h3>Celestica | Full-Stack TCG</h3>
     <p>Globally networked 1v1 TCG with a server-side logic engine in Unity.</p>
-    <span class="tech-tag">Unity/C#</span>
-    <span class="tech-tag">DigitalOcean</span>
+    
+	<details style="background: transparent; border: none; padding: 0;">
+      <summary style="font-size: 0.9em; color: #b5e853;">View Systems Architecture & Mechanics</summary>
+      <div class="feature-list">
+        <div>
+          <strong>Celestial Chain</strong>
+          <p><small>A unique progression mechanic where players must manage "Jump Costs" to explore unknown regions.</small></p>
+        </div>
+        <div>
+          <strong>Resource Management</strong>
+          <p><small>Dual-resource system balancing presence rewards and essence collection.</small></p>
+        </div>
+        <div>
+          <strong>Authoritative Backend</strong>
+          <p><small>Full state-synchronization via MongoDB and DigitalOcean to prevent client-side manipulation.</small></p>
+        </div>
+      </div>
+      <p>
+        <a href="https://celesticatcg.com/">Visit Official Site & Download Pre-Alpha →</a>
+      </p>
+    </details>
+    
+    <span class="tech-tag">C# / Unity</span>
     <span class="tech-tag">MongoDB</span>
-    <br><br>
-    <a href="https://celesticatcg.com/">Visit Project Site →</a>
+    <span class="tech-tag">DigitalOcean</span>
+    <span class="tech-tag">Minimax AI</span>
   </div>
   
   <div class="project-card">
     <h3>Express Checkout | Infrastructure</h3>
     <p>4-player online co-op featuring dynamic server orchestration.</p>
-    <span class="tech-tag">Network Architecture</span>
-	<span class="tech-tag">Game Server Spawner</span>
-    <span class="tech-tag">Instance Scaling</span>
+    <details style="background: transparent; border: none; padding: 0;">
+      <summary style="font-size: 0.9em; color: #b5e853;">Technical Details</summary>
+      <p><small>Designed a custom matchmaking system that spins up dedicated game server instances on demand. Features a two-stage gameplay loop: procedural stealth-extraction followed by physics-based cooking.</small></p>
+    </details>
+    <span class="tech-tag">Network Orchestration</span>
     <span class="tech-tag">Procedural Generation</span>
+  </div>
+
+  <div class="project-card">
+    <h3>SideEffects | Tactics Roguelike</h3>
+    <p>A grid-based tactical roguelike focusing on environmental volatility.</p>
+    <details style="background: transparent; border: none; padding: 0;">
+      <summary style="font-size: 0.9em; color: #b5e853;">Core Systems</summary>
+      <p><small>Implemented an event-driven <strong>CollapseManager</strong> that handles unstable tile waves and environmental hazards. Built on a modular state-machine architecture for room-based progression.</small></p>
+    </details>
+    <span class="tech-tag">Event-Driven Architecture</span>
+    <span class="tech-tag">State Machines</span>
   </div>
 </div>
 
@@ -144,7 +195,7 @@ A researcher-turned-developer with a background in **Mathematical Physics** and 
 </details>
 
 <details>
-  <summary> Master's Research: GFRP Reinforced Concrete Beams</summary>
+  <summary>Master's Research: GFRP Reinforced Concrete Beams</summary>
   <p>Conducted non-linear FEA to evaluate the performance of glass-fiber-reinforced polymer (GFRP) beams.</p>
   <ul>
     <li><strong>Large-Scale Automation:</strong> Orchestrated <strong>300+ unique Abaqus simulations</strong> investigating a wide range of slenderness ratios.</li>
